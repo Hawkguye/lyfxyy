@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>study</title>
+</head>
+<body>
+    <div class="speed-block">
+        <h3 id="audioSpeed">语音速度:  1 倍</h3>
+        <button onclick="changeSpeed(-0.1)">减慢</button>
+        <button onclick="changeSpeed(0.1)">加快</button>
+        <button onclick="natralizeSpeed()">正常</button>
+    </div>
+
+    <div class="main-block">
+
+        <div class="block">
+            <p class="chnt">
+                1. 名字？
+            </p>
+            <p class="engq">
+                Q: What's your name?
+            </p>
+
+            <audio controls>
+                <source src="name.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="enga">
+                A: My name is Lu Yanfang.
+            </p>
+        </div>
+
+        <div class="block">
+            <p class="chnt">
+                2. 出生日期？
+            </p>
+            <p class="engq">
+                Q: What's your date of birth?
+            </p>
+
+            <audio controls>
+                <source src="date-of-birth.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="enga">
+                A: June 8th, 1974
+                <br>
+                June eighth, nineteen-seventy-four
+            </p>
+
+            <audio controls>
+                <source src="1974-6-8.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+        <div class="block">
+            <p class="chnt">
+                3. 来加目的？
+            </p>
+            <p class="engq">
+                Q: What's the purpose of your visit?
+            </p>
+
+            <audio controls>
+                <source src="purpose.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="engq">
+                    或者
+                <br>
+                Q: What do you plan to do in Canada?
+            </p>
+
+            <audio controls>
+                <source src="plan.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="enga">
+                A: Work.
+            </p>
+
+            <audio controls>
+                <source src="work.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+        <div class="block">
+            <p class="chnt">
+                4. 居住地点？
+            </p>
+            <p class="engq">
+                Q: Where will you be staying?
+            </p>
+
+            <audio controls>
+                <source src="stay.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="enga">
+                A: Saskatoon, ( Saskatchewan ).
+            </p>
+
+            <audio controls>
+                <source src="sk.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+    </div>
+
+
+    <div class="video">
+        <video width="320" height="180" controls>
+            <source src="numbers.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

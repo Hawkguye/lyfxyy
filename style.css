@@ -1,0 +1,38 @@
+.main-block {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.speed-block {
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    margin: 8px;
+}
+
+.block {
+    border: 1px black solid;
+    padding: 15px 20px 15px 30px;
+    margin: 15px;
+}
+
+.engq {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+.enga {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.video {
+    text-align: center;
+    margin: auto;
+}
